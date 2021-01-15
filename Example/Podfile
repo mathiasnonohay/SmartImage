@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SmartImage_Example' do
+  pod 'SmartImage', :path => '../'
+
+  target 'SmartImage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
