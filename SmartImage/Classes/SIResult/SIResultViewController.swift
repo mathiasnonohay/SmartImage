@@ -10,7 +10,7 @@ import Vision
 
 @available(iOS 11.0, *)
 @available(iOS 12.0, *)
-class SIResultViewController: UIViewController {
+public class SIResultViewController: UIViewController {
     
     @IBOutlet weak var uiResultImageView: UIImageView!
     @IBOutlet weak var uiResulLabel: UILabel!
@@ -29,7 +29,7 @@ class SIResultViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         setupResults()
     }
