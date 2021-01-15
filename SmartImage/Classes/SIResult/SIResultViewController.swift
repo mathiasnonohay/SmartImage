@@ -19,10 +19,10 @@ public class SIResultViewController: UIViewController {
     private var results: [VNClassificationObservation]
     private var imageToLoad: UIImage
     
-    init(image: UIImage, results: [VNClassificationObservation]) {
+    public init(image: UIImage, results: [VNClassificationObservation]) {
         self.imageToLoad = image
         self.results = results
-        super.init(nibName: "SIResultViewController", bundle: nil)
+        super.init(nibName: "SIResultViewController", bundle: nil )
     }
     
     required init?(coder: NSCoder) {
