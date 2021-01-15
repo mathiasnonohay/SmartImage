@@ -1,0 +1,16 @@
+PODS:
+  - SmartImage (1.0.0)
+
+DEPENDENCIES:
+  - SmartImage (from `../`)
+
+EXTERNAL SOURCES:
+  SmartImage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SmartImage: cc66d3a21806c9dc77fdfd1d8ef8b74fa7ff4d66
+
+PODFILE CHECKSUM: 6df8f92c43aea708478f683c938f7ddf9e57d142
+
+COCOAPODS: 1.10.1

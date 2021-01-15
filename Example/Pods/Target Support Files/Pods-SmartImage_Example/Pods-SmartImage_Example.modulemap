@@ -1,0 +1,6 @@
+framework module Pods_SmartImage_Example {
+  umbrella header "Pods-SmartImage_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
