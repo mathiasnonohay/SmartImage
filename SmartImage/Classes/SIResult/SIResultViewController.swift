@@ -22,7 +22,7 @@ public class SIResultViewController: UIViewController {
     public init(image: UIImage, results: [VNClassificationObservation]) {
         self.imageToLoad = image
         self.results = results
-        super.init(nibName: "SIResultViewController", bundle: nil )
+        super.init(nibName: "SIResultViewController", bundle: Bundle(identifier: "https://github.com/mathiasnonohay/SmartImage/tree/master/SmartImage/Classes/SIResult"))
     }
     
     required init?(coder: NSCoder) {
