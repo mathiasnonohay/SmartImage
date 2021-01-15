@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SmartImage'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'A short description of SmartImage.'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'SmartImage/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SmartImage' => ['SmartImage/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'SmartImage' => ['SmartImage/Classes/*.xib']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
